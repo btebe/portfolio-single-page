@@ -6,7 +6,7 @@ function Nav() {
   return (
     <header className={`container ${styles.nav}`}>
       <div className={styles.image_wrapper}>
-        <Image src={logo} alt='logo' />
+        <Image src={logo} alt='logo' priority={true}/>
       </div>
       <span className={styles.btn}>free consultation</span>
     </header>

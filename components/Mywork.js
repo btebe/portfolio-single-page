@@ -78,20 +78,20 @@ function Mywork() {
       <div className={styles.slide_arrows}>
         {hidebtnleft === true ? (
           <button onClick={moveLeft}>
-            <Image src={arrow_left} alt='arrow left' />
+            <Image src={arrow_left} alt='arrow left' priority={true} />
           </button>
         ) : (
           <button disabled={true} className={styles.btn_disbaled}>
-            <Image src={arrow_left} alt='arrow left' />
+            <Image src={arrow_left} alt='arrow left' priority={true} />
           </button>
         )}
         {hidebtnright === true ? (
           <button onClick={moveRight}>
-            <Image src={arrow_right} alt='arrow right' />
+            <Image src={arrow_right} alt='arrow right priority={true}' />
           </button>
         ) : (
           <button disabled={true} className={styles.btn_disbaled}>
-            <Image src={arrow_right} alt='arrow right' />
+            <Image src={arrow_right} alt='arrow right' priority={true} />
           </button>
         )}
       </div>
